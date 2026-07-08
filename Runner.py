@@ -156,7 +156,6 @@ def draw():
         
         elif game_state == "win":
             screen.draw.text("YOU WIN!", centerx=WIDTH//2, centery=200, color="lime", fontsize=72, shadow=(2,2))
-            screen.draw.text("Amazing! You survived long enough!", centerx=WIDTH//2, centery=290, color="white", fontsize=32)
             screen.draw.text(f"Final Score: {score}", centerx=WIDTH//2, centery=350, color="yellow", fontsize=36)
             screen.draw.text("Press SPACE to Play Again", centerx=WIDTH//2, centery=430, color="white", fontsize=28)
             screen.draw.text("Press M for Main Menu", centerx=WIDTH//2, centery=480, color="lightgray", fontsize=22)
