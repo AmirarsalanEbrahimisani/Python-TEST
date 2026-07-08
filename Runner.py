@@ -49,7 +49,7 @@ class Player():
             self.vel_y = self.jump_strength
             self.on_ground = False
 
-        # Ekran dışına çıkmasın
+        
         if self.actor.x < 50:
             self.actor.x = 50
         if self.actor.x > WIDTH - 50:
